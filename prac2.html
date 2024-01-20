@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: capitalize;
+            margin: 14px 18px;
+            font-size: 17px;
+            border-radius: 5px; 
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="text"],
+        {
+            width: 200px;
+            padding: 15px;
+            border: 1px solid #aba6a6;
+            border-radius: 9px;
+            margin: 10px;
+            color: grey;
+        }
+        h1{
+            font-family:cursive;
+        text-transform: capitalize;
+        text-align: center;
+        color: orange; 
+        }
+        input[
+            type="submit"]{
+                background-color: burlywood;
+                color: white;
+                padding: 13px 21px;
+                border: 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100px;
+            }
+            input[type="submit"]:hover{
+                background-color: gray;
+            }
+            textarea{
+                padding: 16px;
+            }
+    </style>
+</head>
+<body>
+    <form action="">
+    <h1>contact form</h1>
+    <p class="important">Contact us today and get reply with in 24 hours</p>
+    <p>name: <input type="text" name="name"  placeholder="Your name"></p>
+    <p>email address: <input type="email" name="email" id="email" placeholder="Your email"></p>
+    <p>phone number: <input type="number" name="phone number" id="phone number" placeholder="Your phone number"></p>
+    <p>website: <input type="text" name="website" id="website" placeholder="Your website starts with http://"></p>
+    <p>message: <textarea name="messsage" id="message" cols="70" rows="6" placeholder="Type your message here"></textarea></p>
+    <p><input type="submit" name="submit" id="submit"></p>
+</form>
+</body>
+</html>

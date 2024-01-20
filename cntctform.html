@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: ;}
+        body,textarea{
+            text-transform: capitalize;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+            font-style: italic;
+            text-overflow: ellipsis;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            font-style: initial;
+            border-radius: 27px;
+            background-color: rgb(75, 115, 130);
+            color: rgb(247, 247, 249);
+            border: 50px;
+            font-size: larger;
+            
+        }
+        input[type="submit"]{
+            bbackground-color: rgb(20, 63, 128);
+                color: rgb(8, 6, 6);
+                padding: 13px 21px;
+                border: 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 100px;}
+            input[type="submit"]:hover{
+                background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>contact form</h1>
+    <hr>
+    <p>contact us today,and get reply with in 24 hours</p>
+    <p>name: <input type="text" name="name" id="name" placeholder="Your name"></p>
+    <p>email address: <input type="email" id="email" name="email" placeholder="Your email-address"></p>
+    <p>phone: <input type="number" name="number" id="number" placeholder="Your phone number"></p>
+    <p>subject: <input type="subject" name="subject" id="subject" placeholder="Subject"></p>
+    <p> <textarea name="message" id="message" cols="70" rows="6">message:</textarea placeholder="Type your message here"></p>
+    <hr>
+    <p><input type="submit" id="submit" name="submit"></p>
+</body>
+</html>

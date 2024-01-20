@@ -1,0 +1,55 @@
+#blue{
+    background-color: rgb(84, 84, 250);
+}
+#light{
+    background-color: rgb(114, 114, 247);
+}
+#light2{
+    background-color: rgb(143, 143, 244);
+}
+#light3{
+    background-color: rgb(127, 127, 255);
+}
+#light4{
+    background-color: rgb(166, 166, 253);
+}
+#light5{
+    background-color: rgb(188, 188, 253);
+}
+#head{
+background-color: rgba(35, 245, 151, 0.815);
+}
+#pink{
+    background-color: rgb(255, 176, 202);
+}
+#low{
+    background-color: rgb(244, 159, 173);
+}
+#low2{
+    background-color: rgb(249, 141, 177);
+}
+#low3{
+    background-color: rgb(255, 152, 169);
+}
+#low4{
+    background-color: rgb(250, 138, 175);
+}
+#low5{
+    background-color: rgb(253, 135, 154);
+}
+#low6{
+    background-color: rgb(251, 115, 138);
+}
+h1{
+    background-color: rgb(242, 242, 238);
+}
+body{
+    background-color: rgb(205, 197, 197);
+}
+#right{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    text-transform: capitalize;
+}
